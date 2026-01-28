@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env / conda
+.venv/
+venv/
+.envrc
+
+# Local secrets
+.env
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project data (indices, uploads, processed artifacts)
+data/uploads/
+data/processed/
+data/images/
+data/index/
+data/eval/
+
+# Large/binary artifacts (на всякий случай, если где-то окажутся вне data/)
+*.faiss
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.bin
+*.onnx
+*.npy
+*.npz
+
+# Logs / reports artifacts (если генерятся в корне или рядом)
+*.log
+reports/
+
+# Test scripts (local dev only)
+test_*.py
+smoke_test.py
+
+# Docker (local dev only)
+Dockerfile
+docker-compose.yml
+environment.yml
